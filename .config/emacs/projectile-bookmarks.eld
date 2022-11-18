@@ -1,0 +1,1 @@
+("~/projects/teleg/telega/" "~/projects/first/app/")
