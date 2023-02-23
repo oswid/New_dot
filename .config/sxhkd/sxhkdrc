@@ -1,7 +1,3 @@
-#
-# wm independent hotkeys
-#
- 
 # find or start emacs
 super + 1
 	jumpapp emacs && numlockx off
@@ -11,18 +7,18 @@ super + 2
 	jumpapp firefox && numlockx off
 
 
-# find or start terminal
+# find or start alacritty
 super + 3
 	jumpapp alacritty && numlockx on
 
-# find or start obsidia
+# find or start obsidian
 super + 4
 	( jumpapp  obsidian &&  numlockx off ) || ( numlockx off &&  ~/obsidian/Obsidian-1.0.0.AppImage )
 
 
-# find or start suatra
+# find or start okular
 super + 5
-	jumpapp zathura && numlockx off
+	jumpapp okular && numlockx off
 
 # find or start --------------------------
 super + 6
@@ -42,22 +38,22 @@ super + 8
 super + 9
 	jumpapp  st -e ranger && numlockx off
 
-# find or start krusader
+# find or start notion-snap
 super + 0
-	jumpapp krusader  && numlockx off
+	jumpapp notion-snap  && numlockx off
 
-# find or start file manager - ranger
+#increase volume 
 shift + control + alt + g
-	flameshot gui
-
-#increase volume
-alt + control + shift + h
 	amixer -D pulse sset Master 5%+
 
-
 #decrease volume
-alt + control + shift + i
+alt + control + shift + h
 	amixer -D pulse sset Master 5%-
+
+
+#shot by flameshot
+alt + control + shift + i
+	flameshot gui
 
 #language russian
 Shift_R
