@@ -4,8 +4,7 @@ super + 1
 
 # find or start firefox
 super + 2
-	jumpapp firefox && numlockx off
-
+	jumpapp google-chrome && numlockx off
 
 # find or start alacritty
 super + 3
@@ -26,8 +25,7 @@ super + 6
 
 # find or start google
 super + 7
-	jumpapp google-chrome && numlockx off
-
+	jumpapp firefox && numlockx off
 
 # find or start telegram
 super + 8

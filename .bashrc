@@ -129,3 +129,5 @@ export NVM_DIR="$HOME/.config/nvm"
 . "$HOME/.cargo/env"
 
 bash -c zsh
+
+export PATH="/home/olaf/.local/bin:$PATH"

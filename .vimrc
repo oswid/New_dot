@@ -17,3 +17,6 @@ noremap l y
 
 
 map s :w<CR>
+
+nmap S <Esc>:w<CR>:!clear;python3 %<CR>
+
