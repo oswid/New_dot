@@ -1,3 +1,12 @@
+set encoding=utf-8
+set noswapfile
+
+
+call plug#begin()
+
+
+call plug#end()
+
 noremap e u
 noremap u i
 noremap i h

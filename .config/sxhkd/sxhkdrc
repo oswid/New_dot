@@ -63,7 +63,7 @@ Control_R
 
 # rofi
 alt + shift + control + j
-	rofi -show run
+        rofi -show combi -combi-modi "run,drun,ssh" -modi combi
 
 # terminal emulator
 super + Return

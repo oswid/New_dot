@@ -138,7 +138,7 @@
 ;;   (setq lsp-ui-doc-include-signature t)
 ;;   (setq lsp-ui-doc-border (face-foreground 'default))
 ;;   (setq lsp-ui-sideline-show-code-actions t)
-;;   (setq lsp-ui-sideline-delay 0.05))
+  ;; (setq lsp-ui-sideline-delay 0.05))
 
 ;; (use-package company
 ;;   :ensure t

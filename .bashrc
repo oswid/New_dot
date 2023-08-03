@@ -130,4 +130,6 @@ export NVM_DIR="$HOME/.config/nvm"
 
 bash -c zsh
 
-export PATH="/home/olaf/.local/bin:$PATH"
+PATH="$HOME/.local/bin:$PATH"
+PATH="$HOME/.local/bin:$PATH"
+PATH="$HOME/.local/bin:$PATH"

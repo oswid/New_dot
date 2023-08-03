@@ -1,3 +1,8 @@
+(global-set-key (kbd "C-t") 'avy-goto-char)
+
+
+;; EVIL KEYBINDINGS
+
 (setcdr evil-normal-state-map nil)
 (setcdr evil-insert-state-map nil)
 (setcdr evil-motion-state-map nil)
@@ -20,7 +25,7 @@
 
 (define-key evil-normal-state-map "u" 'evil-insert)
 (define-key evil-normal-state-map "U" 'evil-append)
-(define-key evil-normal-state-map ";" 'evil-delete)
+(define-key evil-normal-state-map "d" 'evil-delete)
 (define-key evil-normal-state-map "r" 'evil-open-below)
 (define-key evil-normal-state-map "R" 'evil-open-above)
 (define-key evil-normal-state-map "f" 'evil-paste-after)
@@ -34,6 +39,7 @@
 
 (define-key evil-normal-state-map "e" 'evil-undo)
 (define-key evil-normal-state-map "E" 'evil-redo)
+(define-key evil-normal-state-map "t" 'avy-goto-char)
 (define-key evil-normal-state-map "s" 'evil-save)
 (define-key evil-normal-state-map "S" 'quickrun)
 
