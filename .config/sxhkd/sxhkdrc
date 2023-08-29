@@ -55,11 +55,13 @@ alt + control + shift + i
 
 #language russian
 Shift_R
-	setxkbmap ru ruchey_cyrillic
+	#setxkbmap ru ruchey_cyrillic
+        setxkbmap ru ruchey_ru
 
 #language english
 Control_R
-	setxkbmap ru ruchey_latin
+	#setxkbmap ru ruchey_latin
+        setxkbmap ru ruchey_en
 
 # rofi
 alt + shift + control + j
